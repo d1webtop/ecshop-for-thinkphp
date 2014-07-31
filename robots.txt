@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: /data/
+Disallow: /include/
+Disallow: /install/
+Disallow: /plugins/
+Disallow: /themes/
