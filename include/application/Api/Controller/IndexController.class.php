@@ -1,8 +1,13 @@
 <?php
+
 namespace Api\Controller;
+
 use Think\Controller;
+
 class IndexController extends Controller {
-    public function index(){
-        $this->show('ecshop for thinkphp.','utf-8');
+
+    public function index() {
+        echo 'Api.';
     }
+
 }
