@@ -8,5 +8,4 @@ return array(
     'DB_PWD'    => 'root',  // 密码
     'DB_PORT'   => '3306', // 端口
     'DB_PREFIX' => 'ecs_', // 数据库表前缀
-    'AUTH_KEY'  => 'abc', // 数据通信和加密串
 );
