@@ -1,18 +1,17 @@
 <?php
 
 /**
- * Electronic Commerce Services Content Management System
+ * ECSCMS (c) 2012-2014 http://ecscms.com All rights reserved.
  * ============================================================================
- * Copyright (c) 2012-2014 http://ecscms.com All rights reserved.
+ * This is not a freeware, use is subject to license terms
  * ----------------------------------------------------------------------------
  * 文件名称：index.php
  * ----------------------------------------------------------------------------
- * 功能描述：安装器入口文件
+ * 功能描述：项目安装入口文件
  * ----------------------------------------------------------------------------
  * Author: Ted <docxcn@gmail.com>
  * ----------------------------------------------------------------------------
  */
 
-define('TED_INSTALL', true);
 define('BIND_MODULE', 'Install');
-require '../include/vagrant.php';
+require '../include/bootstrap.php';

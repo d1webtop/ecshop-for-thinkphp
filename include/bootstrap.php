@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Electronic Commerce Services Content Management System
+ * ECSCMS (c) 2012-2014 http://ecscms.com All rights reserved.
  * ============================================================================
- * Copyright (c) 2012-2014 http://ecscms.com All rights reserved.
+ * This is not a freeware, use is subject to license terms
  * ----------------------------------------------------------------------------
- * 文件名称：vagrant.php
+ * 文件名称：bootstrap.php
  * ----------------------------------------------------------------------------
  * 功能描述：项目公共入口文件
  * ----------------------------------------------------------------------------
@@ -28,7 +28,7 @@ define('COMMON_PATH', BASE_PATH . 'common/');
 // 运行时目录
 define('RUNTIME_PATH', ROOT_PATH . 'data/caching/');
 // 根目录请求
-$root_directory = (BIND_MODULE == 'Home' || BIND_MODULE == 'Api') ? true : false;
+$root_directory = (BIND_MODULE == 'Home') ? true : false;
 // 网站URL路径
 if ($root_directory) {
     define('__ROOT__', rtrim(dirname($_SERVER['SCRIPT_NAME']), '/'));

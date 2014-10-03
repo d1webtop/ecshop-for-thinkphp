@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Electronic Commerce Services Content Management System
+ * OSONE (c) 2012-2014 http://www.osone.com.cn All rights reserved.
  * ============================================================================
- * Copyright (c) 2012-2014 http://ecscms.com All rights reserved.
+ * This is not a freeware, use is subject to license terms
  * ----------------------------------------------------------------------------
  * 文件名称：index.php
  * ----------------------------------------------------------------------------
@@ -14,4 +14,4 @@
  */
 
 define('BIND_MODULE', 'Home');
-require './include/vagrant.php';
+require './include/bootstrap.php';
